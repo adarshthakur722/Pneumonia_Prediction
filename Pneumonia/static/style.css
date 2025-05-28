@@ -1,0 +1,102 @@
+/* General body styling */
+/* General body styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #C7D9DD; /* Soft and sober gradient */
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main content wrapper */
+.container {
+  background: linear-gradient(to bottom, #ffffff, #f2f6f9);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  padding: 50px 40px;
+  max-width: 450px;
+  width: 90%;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Logo styling */
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+/* Heading */
+h1 {
+  color: #444;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Form styling */
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* File input styling */
+input[type="file"] {
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #764ba2;
+  background-color: #f9f9f9;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Button styling */
+button {
+  padding: 12px 25px;
+  background: linear-gradient(135deg, #667eea, #764ba2, #ff6a00);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+button:hover {
+  background: linear-gradient(135deg, #ff6a00, #764ba2, #667eea);
+  transform: scale(1.05);
+}
+
+/* Result text */
+.result {
+  margin-top: 30px;
+  color: #28a745;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+/* Example image */
+.example-xray {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
